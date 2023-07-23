@@ -20,11 +20,11 @@
 .statsense__navbar-links_logo p {
     font-size: 25px;
     font-family: var(--font-family);
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .statsense__navbar-links_logo img {
-    width: 80px;
+    width: 120px;
     height: 60px;
 }
 

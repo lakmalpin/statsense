@@ -5,17 +5,19 @@ import { Feature } from '../../components';
 const WhatStatSense = () => {
   return (
     <div className="statsense__whatstatsense section__margin" id='whatstatsense'>
-      <div className='statsense__whatstatsense-feature'>
-        <Feature title={"What is Stat Sense?"} text={"testing text"}/>
-      </div>
       <div className='statsense__whatstatsense-heading'>
-        <h1 className='gradient__text'> The possibilities are beyond your imagination</h1>
+        <h1 className='stat_sense_orange_text'> Services</h1>
         <p>Explore The Library</p>
       </div>
+      {/* <div className='statsense__whatstatsense-feature'>
+        <Feature title={"What is Stat Sense?"} text={"testing text"}/>
+      </div> */}
+      
       <div className='statsense__whatstatsense-container'>
-        <Feature title={"Project 1"} text={"Project 1 Text"} />
-        <Feature title={"Project 2"} text={"Project 2 Text"}/>
-        <Feature title={"Project 3"} text={"Project 3 Text"}/>
+        <Feature title={"Advice"} text={"Project 1 Text"} />
+        <Feature title={"Statistics"} text={"Project 2 Text"}/>
+        <Feature title={"Statistical Genetics"} text={"Project 3 Text"}/>
+        <Feature title={"Statistical Bioinformatics"} text={"Project 3 Text"}/>
       </div>
 
     </div>

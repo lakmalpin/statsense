@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className='statsense__header section__padding' id="home">
       <div className='statsense__header-content'>
-        <h1 className='gradient__text'>Welcome To Stat Sense Consulting</h1>
+        <h1 className='stat_sense_orange_text'>Welcome To Stat Sense Consulting</h1>
         <p>Stat Sense is a statistics consulting service which offers statistical support for research projects in the applied sciences, specially the health sciences. We provide statistical consultation and assistance with analysis for clinical, genetic, and high throughput biotechnological (genomics, microarrays) data. We help select and/or perform the proper statistical analyses and provide support in interpreting and writing analysis results.</p>
         <div className='statsense__header-content__input'>
           <input type="email" placeholder='Your email'></input>

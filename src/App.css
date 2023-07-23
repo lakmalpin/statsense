@@ -19,9 +19,8 @@ a {
 /* got this background from angrytools.com/gradient */
 
 .gradient__bg {
-
-        /* global 92%+ browsers support */
-        background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(0, 40, 83, 1) 0%, rgba(4, 3, 24, 1) 100%);
+  /* global 92%+ browsers support */
+  background: radial-gradient(circle at 50% 50%, rgba(75, 187, 63, 1) 0%, rgba(60, 123, 52, 1) 100%);
 }
 
 .gradient__text {
@@ -29,6 +28,10 @@ a {
     background-clip: text;
     -webkit-background-clop: text;
     -webkit-text-fill-color: transparent;
+}
+
+.stat_sense_orange_text {
+  color: var(--color-big-text);
 }
 
 .section__padding {

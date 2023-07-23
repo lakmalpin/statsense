@@ -22,8 +22,8 @@ const Navbar = () => {
   return (
     <div className="statsense__navbar">
       <div className="statsense__navbar-links">
-         <div className="statsense__navbar-links_logo gradient__text">
-          <p>Stat Sense Consulting</p>
+         <div className="statsense__navbar-links_logo">
+          <p className='stat_sense_orange_text'>Stat Sense</p>
           {/* <img src={logo} alt="logo"/> */}
          </div>
          <div className='statsense__navbar-links_container'>
